@@ -1,0 +1,121 @@
+:root { 
+    --black: #000000;
+    --black-2: #0000000d;
+    --black-3: #00000080;
+    --black-4: #0000001a;
+    --melon: #fdb0b0ec;
+    --white: #ffffff;
+   
+    --font-size-l: 16px;
+    --font-size-m: 14px;
+    --font-size-s: 12px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 28px;
+    --font-size-xxxl: 40px;
+    --font-size-xxxxl: 62.5px;
+   
+    --font-family-roboto: "Roboto", Helvetica;
+  }
+  .roboto-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-medium-black-14px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .roboto-normal-black-14px {
+    color: var(--black-3);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-normal-black-14px-2 {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .roboto-normal-black-62-5px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-medium-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .roboto-medium-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .roboto-medium-black-28px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .roboto-normal-black-16px-2 {
+    color: var(--black-3);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .roboto-bold-melon-40px {
+    color: var(--melon);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 700;
+  }

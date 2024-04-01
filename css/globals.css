@@ -1,0 +1,78 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,400,700");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px #0000001f;
+  display: flex;
+  gap: 20px;
+  height: 80px;
+  justify-content: center;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.rectangle-4137 {
+  background-color: var(--black-4);
+  border-radius: 100px;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.description {
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  width: 520px;
+}
+
+.vector-200 {
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.input {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: 600px;
+}
+
+.button-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}

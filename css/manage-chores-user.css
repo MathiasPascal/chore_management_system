@@ -1,0 +1,328 @@
+/* screen - manage-chores-user */
+
+.manage-chores-user {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0px 0px 220px;
+    position: relative;
+  }
+  
+  .manage-chores-user .title-5 {
+    flex: 1;
+    line-height: 36px;
+  }
+  
+  .manage-chores-user .navigation {
+    align-items: center;
+    background-color: var(--white);
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .manage-chores-user .navigation-item {
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .manage-chores-user .tab {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .manage-chores-user .textfield {
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--black-4);
+    border-radius: 6px;
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+    padding: 8px;
+    position: relative;
+    width: 200px;
+  }
+  
+  .manage-chores-user .text {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1.00px;
+    position: relative;
+  }
+  
+  .manage-chores-user .ic-search {
+    height: 20px;
+    position: relative;
+    width: 20px;
+  }
+  
+  .manage-chores-user .sidebar {
+    align-items: center;
+    background-color: var(--black-2);
+    display: flex;
+    flex-direction: column;
+    height: calc(100.00% - 80px);
+    left: 0;
+    padding: 12px 0px;
+    position: absolute;
+    top: 80px;
+    width: 220px;
+  }
+  
+  .manage-chores-user .item {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    justify-content: center;
+    padding: 16px 20px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .manage-chores-user .frame {
+    align-items: center;
+    background-color: var(--black-2);
+    border-radius: 12px;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    position: relative;
+    width: 24px;
+  }
+  
+  .manage-chores-user .icon {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 24px;
+  }
+  
+  .manage-chores-user .title {
+    flex: 1;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .manage-chores-user .section {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 60px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .manage-chores-user .container-1 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .manage-chores-user .title-6 {
+    line-height: 48px;
+    margin-top: -1.00px;
+    text-align: center;
+    width: 520px;
+  }
+  
+  .manage-chores-user .button {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .manage-chores-user .seconday {
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--melon);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    position: relative;
+    width: 160px;
+  }
+  
+  .manage-chores-user .title-1 {
+    line-height: 24px;
+    margin-top: -1.00px;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .manage-chores-user .primary {
+    align-items: center;
+    background-color: var(--melon);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    position: relative;
+    width: 160px;
+  }
+  
+  .manage-chores-user .tab-group {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .manage-chores-user .tab-group-item {
+    align-items: center;
+    background-color: #d8d8d880;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    position: relative;
+    width: 120px;
+  }
+  
+  .manage-chores-user .title-2 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    display: -webkit-box;
+    height: 20px;
+    line-height: 20px;
+    margin-top: -1.00px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .manage-chores-user .container {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .manage-chores-user .title-3 {
+    align-self: stretch;
+    line-height: 48px;
+    margin-top: -1.00px;
+  }
+  
+  .manage-chores-user .list {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px 0px;
+    position: relative;
+  }
+  
+  .manage-chores-user .item-1 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    justify-content: center;
+    padding: 12px 0px;
+    position: relative;
+  }
+  
+  .manage-chores-user .frame-1 {
+    align-items: center;
+    background-color: var(--black-2);
+    border-radius: 50px;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+  }
+  
+  .manage-chores-user .icon-1 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    height: 100px;
+    letter-spacing: 0;
+    line-height: 100px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+  }
+  
+  .manage-chores-user .frame-427318906 {
+    align-items: flex-start;
+    align-self: stretch;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .manage-chores-user .title-4 {
+    align-self: stretch;
+    line-height: 28px;
+    margin-top: -1.00px;
+    text-align: center;
+  }
+  
+  .manage-chores-user .subtitle {
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .manage-chores-user .frame-2 {
+    display: flex;
+    position: relative;
+  }
+  
+  .manage-chores-user .title-7 {
+    letter-spacing: 0;
+    position: relative;
+  }

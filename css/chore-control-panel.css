@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+
+thead {
+    background-color: #000000;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
