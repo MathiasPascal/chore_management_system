@@ -192,9 +192,7 @@ checkLogin();
     </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Chore Management System</p>
-    </footer>
+    
 
 </body>
 
